@@ -4,9 +4,9 @@ zonaRural. Crie o programa que retorne se o cliente tem direito ao frete grátis
 
 var valorCompra = 110
 var membroVip = true
-var zonaRural = true
+var zonaRural = false
 
-if ((valorCompra > 100 || membroVip ) && !zonaRural) {
+if (!zonaRural && (valorCompra > 100 || membroVip )) {
     console.log("Você tem direito ao frete grátis")
 }else {
     console.log("Você não tem direito ao frete grátis")
