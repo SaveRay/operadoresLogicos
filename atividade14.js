@@ -6,7 +6,7 @@ retorne se o formulário é válido para envio.*/
 var email = "ggddd"
 var termos = true
 
-if (email != ("") && termos) {
+if (email != "" && termos) {
     console.log("Formulario valído pra envio!")
 }else {
     console.log("Acesso negado!")
